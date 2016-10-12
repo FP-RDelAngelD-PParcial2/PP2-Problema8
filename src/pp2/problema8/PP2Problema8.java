@@ -25,11 +25,11 @@ public class PP2Problema8 {
         return miDato;
     }
     public static double calcularHipotenusa(){
-        double a = solicitarDatos("cateto a ");
-        double b = solicitarDatos("cateto b ");
-        return a+b;    
+        double a = solicitarDatos("cateto a "); //Solicita primer cateto
+        double b = solicitarDatos("cateto b "); //Solicita segundo cateto
+        return a+b;    //La suma de los catetos es igual a la hipotenusa
     }
-    public static void muestraResultado(double a){
+    public static void muestraResultado(double a){ //Recibe hipotenusa y la imprime en la sentencia
         System.out.print("El resultado es " + a);
     }
 }
