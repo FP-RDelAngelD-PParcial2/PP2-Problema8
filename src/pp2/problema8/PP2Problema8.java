@@ -28,7 +28,7 @@ public class PP2Problema8 {
         double a = solicitarDatos("cateto a "); //Solicita primer cateto
         double b = solicitarDatos("cateto b "); //Solicita segundo cateto
         double hipotenusa = a+b; //La suma de los catetos es igual a la hipotenusa
-        if (a>0 && b>0){
+        if (a>0 && b>0){//Si el numero a es mayor que 0 y b es mayor que 0
             System.out.print("El resultado es " + hipotenusa); //Recibe hipotenusa y la imprime en la sentencia
         }else{
             System.out.print("Datos incorrectos");
